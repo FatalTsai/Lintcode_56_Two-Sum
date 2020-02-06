@@ -5,7 +5,7 @@
         vector<int> result;
 
         for (int i = 0; i < nums.size(); i++) {
-            if (hash.find(target - nums[i]) != hash.end()) {
+            if (hash.find(target - nums[i]) != hash.end()) { //hash.find is for finding the attribute
             
                 // target - nums[i]'s index is smaller , put it in the front
                 
